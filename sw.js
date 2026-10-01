@@ -1,6 +1,6 @@
 /* Full Count service worker: keeps the app working offline.
    When you publish an update, change VERSION so phones fetch the new files. */
-var VERSION = "full-count-2026-10-01";
+var VERSION = "full-count-2026-10-01b";
 var CORE = ["./", "./index.html", "./app.js", "./vendor.js", "./tone-shim.js", "./manifest.json",
             "./icons/icon-180.png", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png"];
 self.addEventListener("install", function (e) {
